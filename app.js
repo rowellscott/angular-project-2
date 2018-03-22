@@ -10,6 +10,7 @@ var mongoose = require('mongoose');
 var session = require('express-session')
 var passport = require('passport');
 var cors = require('cors');
+const bcrypt = require('bcrypt');
 require("dotenv").config();
 
 //Import Passport Strategy and Other Functions
